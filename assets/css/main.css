@@ -1,0 +1,36 @@
+@font-face {
+    font-family: anurati;
+    src: url(./assets/Anurati-Regular.otf);
+}
+
+:root {
+    --bg-color: #111111;
+}
+
+body {
+    background-color: var(--bg-color);
+    height: 1000vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+/*---------------Animations----------------*/
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(25%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+}
+  
+
